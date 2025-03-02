@@ -7,6 +7,11 @@ abstract class CoffeeDecorator implements Coffee {
         this.coffee = coffee;
     }
 
-    public String getDescription() { return coffee.getDescription(); }
-    public double getCost() { return coffee.getCost(); }
+    public String getDescription() {
+        return coffee.getDescription();
+    }
+
+    public double getCost() {
+        return coffee.getCost();
+    }
 }
